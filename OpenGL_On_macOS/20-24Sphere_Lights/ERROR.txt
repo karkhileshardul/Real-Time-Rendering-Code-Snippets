@@ -1,0 +1,150 @@
+In file included from OGLPP.mm:8:
+./Sphere.h:10:2: error: unknown type name 'boolean'; did you mean 'Boolean'?
+        boolean isFoundIdentical(final float, final float, final float);
+        ^~~~~~~
+        Boolean
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/MacTypes.h:309:41: note: 'Boolean' declared here
+typedef unsigned char                   Boolean;
+                                        ^
+In file included from OGLPP.mm:8:
+./Sphere.h:10:27: error: unknown type name 'final'
+        boolean isFoundIdentical(final float, final float, final float);
+                                 ^
+./Sphere.h:10:33: error: expected ')'
+        boolean isFoundIdentical(final float, final float, final float);
+                                       ^
+./Sphere.h:10:26: note: to match this '('
+        boolean isFoundIdentical(final float, final float, final float);
+                                ^
+./Sphere.h:23:24: error: array has incomplete element type 'float []'
+        void addTriangle(float[][], float[][], float[][])
+                              ^
+./Sphere.h:23:35: error: array has incomplete element type 'float []'
+        void addTriangle(float[][], float[][], float[][])
+                                         ^
+./Sphere.h:23:46: error: array has incomplete element type 'float []'
+        void addTriangle(float[][], float[][], float[][])
+                                                    ^
+./Sphere.h:23:51: error: expected ';' at end of declaration list
+        void addTriangle(float[][], float[][], float[][])
+                                                         ^
+                                                         ;
+./Sphere.h:25:2: error: expected ';' after class
+}
+ ^
+ ;
+OGLPP.mm:252:9: error: invalid operands to binary expression ('const char *' and 'const char *')
+    "\n"+
+    ~~~~^
+OGLPP.mm:363:9: error: invalid operands to binary expression ('const char *' and 'const char *')
+    "\n"+
+    ~~~~^
+OGLPP.mm:528:3: error: bad receiver type 'Sphere'
+        [sphere getSphereVertexData:sphere_vertices :sphere_normals :sphere_textures :sphere_elements]; 
+         ^~~~~~
+OGLPP.mm:529:2: error: use of undeclared identifier 'numVertices'
+        numVertices = [sphere getNumberOfSphereVertices];
+        ^
+OGLPP.mm:529:17: error: bad receiver type 'Sphere'
+        numVertices = [sphere getNumberOfSphereVertices];
+                       ^~~~~~
+OGLPP.mm:530:2: error: use of undeclared identifier 'numElements'
+        numElements = [sphere getNumberOfSphereElements];
+        ^
+OGLPP.mm:530:17: error: bad receiver type 'Sphere'
+        numElements = [sphere getNumberOfSphereElements];
+                       ^~~~~~
+OGLPP.mm:574:15: error: use of undeclared identifier 'GL_SMOOTH'
+        glShadeModel(GL_SMOOTH);
+                     ^
+OGLPP.mm:578:9: error: use of undeclared identifier 'GL_PERSPECTIVE_CORRECTION_HINT'
+        glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
+               ^
+OGLPP.mm:626:40: error: use of undeclared identifier 'Math'
+    float lightYRotateZAxis = (float) (Math.cos(3.1415 * gLightAngleY / 180.0) * 10.0);
+                                       ^
+OGLPP.mm:626:58: error: use of undeclared identifier 'gLightAngleY'
+    float lightYRotateZAxis = (float) (Math.cos(3.1415 * gLightAngleY / 180.0) * 10.0);
+                                                         ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+Sphere.cpp:1:18: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include <math.h>; // for sqrt()
+                 ^
+                 //
+Sphere.cpp:11:18: error: array has incomplete element type 'short []'
+    short indices[][] =
+                 ^
+Sphere.cpp:11:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    short indices[][] =
+                      ^
+Sphere.cpp:11:23: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:369:19: error: array has incomplete element type 'float []'
+    float vertices[][] =
+                  ^
+Sphere.cpp:369:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float vertices[][] =
+                       ^
+Sphere.cpp:369:24: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:502:18: error: array has incomplete element type 'float []'
+    float normals[][] =
+                 ^
+Sphere.cpp:502:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float normals[][] =
+                      ^
+Sphere.cpp:502:23: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:635:19: error: array has incomplete element type 'float []'
+    float textures[][] =
+                  ^
+Sphere.cpp:635:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float textures[][] =
+                       ^
+Sphere.cpp:635:24: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:645:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float model_vertices[]=new float[1146];
+                          ^
+Sphere.cpp:645:27: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:646:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float model_normals[]=new float[1146];
+                         ^
+Sphere.cpp:646:26: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:647:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float model_textures[]=new float[764];
+                          ^
+Sphere.cpp:647:27: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:648:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    short model_elements[]=new short[2280];
+                          ^
+Sphere.cpp:648:27: error: array bound cannot be deduced from an in-class initializer
+Sphere.cpp:750:27: error: array has incomplete element type 'float []'
+    void addTriangle(float[][] single_vertex, float[][] single_normal, float[][] single_texture)
+                          ^
+Sphere.cpp:750:32: error: expected ')'
+    void addTriangle(float[][] single_vertex, float[][] single_normal, float[][] single_texture)
+                               ^
+Sphere.cpp:750:21: note: to match this '('
+    void addTriangle(float[][] single_vertex, float[][] single_normal, float[][] single_texture)
+                    ^
+Sphere.cpp:805:34: error: expected ')'
+    void normalizeVector(float[] v)
+                                 ^
+Sphere.cpp:805:25: note: to match this '('
+    void normalizeVector(float[] v)
+                        ^
+Sphere.cpp:821:5: error: unknown type name 'boolean'
+    boolean isFoundIdentical(final float val1, final float val2, final float diff)
+    ^
+Sphere.cpp:821:30: error: unknown type name 'final'
+    boolean isFoundIdentical(final float val1, final float val2, final float diff)
+                             ^
+Sphere.cpp:821:36: error: expected ')'
+    boolean isFoundIdentical(final float val1, final float val2, final float diff)
+                                   ^
+Sphere.cpp:821:29: note: to match this '('
+    boolean isFoundIdentical(final float val1, final float val2, final float diff)
+                            ^
+Sphere.cpp:727:19: error: array has incomplete element type 'float []'
+        float vert[][]=new float [3][3]; // position co-ordinates of ONE triangle
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+9 warnings and 20 errors generated.

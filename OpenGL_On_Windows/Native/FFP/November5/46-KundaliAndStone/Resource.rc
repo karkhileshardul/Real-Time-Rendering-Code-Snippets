@@ -1,0 +1,5 @@
+#include "Header.h"
+
+IDBITMAP_STONE BITMAP Stone.bmp
+IDBITMAP_KUNDALI BITMAP Vijay_Kundali.bmp
+

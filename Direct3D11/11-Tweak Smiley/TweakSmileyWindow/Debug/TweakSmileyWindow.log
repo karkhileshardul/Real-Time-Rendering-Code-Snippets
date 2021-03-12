@@ -1,0 +1,4 @@
+﻿  Template.cpp
+c:\users\shark\documents\visual studio 2015\projects\01-realtimerendering-2017\02-rtr\01-rtr_course\01-native\06-direct3d\10 , 11 , 12 , 13\11-tweak smiley\tweaksmileywindow\template.cpp(858): warning C4101: 'hr': unreferenced local variable
+  TweakSmileyWindow.vcxproj -> C:\Users\SharK\Documents\Visual Studio 2015\Projects\01-RealTimeRendering-2017\02-RTR\01-RTR_Course\01-Native\06-Direct3D\10 , 11 , 12 , 13\11-Tweak Smiley\TweakSmileyWindow\Debug\TweakSmileyWindow.exe
+  TweakSmileyWindow.vcxproj -> C:\Users\SharK\Documents\Visual Studio 2015\Projects\01-RealTimeRendering-2017\02-RTR\01-RTR_Course\01-Native\06-Direct3D\10 , 11 , 12 , 13\11-Tweak Smiley\TweakSmileyWindow\Debug\TweakSmileyWindow.pdb (Full PDB)

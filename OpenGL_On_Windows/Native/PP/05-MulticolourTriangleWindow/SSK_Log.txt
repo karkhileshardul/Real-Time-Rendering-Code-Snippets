@@ -1,0 +1,2 @@
+Log File is created successfully Opened
+Log File closed successfully.

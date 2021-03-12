@@ -1,0 +1,2 @@
+Log File is Successfully opened
+Lof File Successfully Closed.

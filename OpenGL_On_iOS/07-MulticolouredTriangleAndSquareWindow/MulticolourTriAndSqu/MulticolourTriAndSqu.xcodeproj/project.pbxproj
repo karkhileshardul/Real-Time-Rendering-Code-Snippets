@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC14B59921200F80003ECB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14B59821200F80003ECB01 /* AppDelegate.m */; };
+		BC14B59C21200F80003ECB01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14B59B21200F80003ECB01 /* ViewController.m */; };
+		BC14B59F21200F80003ECB01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC14B59D21200F80003ECB01 /* Main.storyboard */; };
+		BC14B5A121200F8D003ECB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC14B5A021200F8D003ECB01 /* Assets.xcassets */; };
+		BC14B5A421200F8D003ECB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC14B5A221200F8D003ECB01 /* LaunchScreen.storyboard */; };
+		BC14B5A721200F8D003ECB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14B5A621200F8D003ECB01 /* main.m */; };
+		BC14B5AF21200FAC003ECB01 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14B5AE21200FAC003ECB01 /* QuartzCore.framework */; };
+		BC14B5B121200FB2003ECB01 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC14B5B021200FB2003ECB01 /* OpenGLES.framework */; };
+		BC14B5B521200FDB003ECB01 /* GLESView.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC14B5B421200FDB003ECB01 /* GLESView.mm */; };
+		BC14B5B721200FE2003ECB01 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC14B5B621200FE2003ECB01 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC14B59421200F7F003ECB01 /* MulticolourTriAndSqu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulticolourTriAndSqu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC14B59721200F80003ECB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC14B59821200F80003ECB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC14B59A21200F80003ECB01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC14B59B21200F80003ECB01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC14B59E21200F80003ECB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC14B5A021200F8D003ECB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC14B5A321200F8D003ECB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC14B5A521200F8D003ECB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC14B5A621200F8D003ECB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC14B5AE21200FAC003ECB01 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC14B5B021200FB2003ECB01 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BC14B5B321200FDB003ECB01 /* GLESView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLESView.h; sourceTree = "<group>"; };
+		BC14B5B421200FDB003ECB01 /* GLESView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GLESView.mm; sourceTree = "<group>"; };
+		BC14B5B621200FE2003ECB01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC14B59121200F7F003ECB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14B5B121200FB2003ECB01 /* OpenGLES.framework in Frameworks */,
+				BC14B5AF21200FAC003ECB01 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC14B58B21200F7F003ECB01 = {
+			isa = PBXGroup;
+			children = (
+				BC14B5B221200FC7003ECB01 /* Resources */,
+				BC14B59621200F80003ECB01 /* MulticolourTriAndSqu */,
+				BC14B59521200F7F003ECB01 /* Products */,
+				BC14B5AD21200FAC003ECB01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC14B59521200F7F003ECB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC14B59421200F7F003ECB01 /* MulticolourTriAndSqu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC14B59621200F80003ECB01 /* MulticolourTriAndSqu */ = {
+			isa = PBXGroup;
+			children = (
+				BC14B5B321200FDB003ECB01 /* GLESView.h */,
+				BC14B5B421200FDB003ECB01 /* GLESView.mm */,
+				BC14B59721200F80003ECB01 /* AppDelegate.h */,
+				BC14B59821200F80003ECB01 /* AppDelegate.m */,
+				BC14B59A21200F80003ECB01 /* ViewController.h */,
+				BC14B59B21200F80003ECB01 /* ViewController.m */,
+				BC14B59D21200F80003ECB01 /* Main.storyboard */,
+				BC14B5A021200F8D003ECB01 /* Assets.xcassets */,
+				BC14B5A221200F8D003ECB01 /* LaunchScreen.storyboard */,
+				BC14B5A521200F8D003ECB01 /* Info.plist */,
+				BC14B5A621200F8D003ECB01 /* main.m */,
+			);
+			path = MulticolourTriAndSqu;
+			sourceTree = "<group>";
+		};
+		BC14B5AD21200FAC003ECB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC14B5B021200FB2003ECB01 /* OpenGLES.framework */,
+				BC14B5AE21200FAC003ECB01 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC14B5B221200FC7003ECB01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC14B5B621200FE2003ECB01 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC14B59321200F7F003ECB01 /* MulticolourTriAndSqu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC14B5AA21200F8D003ECB01 /* Build configuration list for PBXNativeTarget "MulticolourTriAndSqu" */;
+			buildPhases = (
+				BC14B59021200F7F003ECB01 /* Sources */,
+				BC14B59121200F7F003ECB01 /* Frameworks */,
+				BC14B59221200F7F003ECB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MulticolourTriAndSqu;
+			productName = MulticolourTriAndSqu;
+			productReference = BC14B59421200F7F003ECB01 /* MulticolourTriAndSqu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC14B58C21200F7F003ECB01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					BC14B59321200F7F003ECB01 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BC14B58F21200F7F003ECB01 /* Build configuration list for PBXProject "MulticolourTriAndSqu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC14B58B21200F7F003ECB01;
+			productRefGroup = BC14B59521200F7F003ECB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC14B59321200F7F003ECB01 /* MulticolourTriAndSqu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC14B59221200F7F003ECB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14B5A421200F8D003ECB01 /* LaunchScreen.storyboard in Resources */,
+				BC14B5B721200FE2003ECB01 /* Default-568h@2x.png in Resources */,
+				BC14B5A121200F8D003ECB01 /* Assets.xcassets in Resources */,
+				BC14B59F21200F80003ECB01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC14B59021200F7F003ECB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14B59C21200F80003ECB01 /* ViewController.m in Sources */,
+				BC14B5A721200F8D003ECB01 /* main.m in Sources */,
+				BC14B59921200F80003ECB01 /* AppDelegate.m in Sources */,
+				BC14B5B521200FDB003ECB01 /* GLESView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC14B59D21200F80003ECB01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC14B59E21200F80003ECB01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC14B5A221200F8D003ECB01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC14B5A321200F8D003ECB01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC14B5A821200F8D003ECB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC14B5A921200F8D003ECB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC14B5AB21200F8D003ECB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MulticolourTriAndSqu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = astromedicomp.org.MulticolourTriAndSqu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC14B5AC21200F8D003ECB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MulticolourTriAndSqu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = astromedicomp.org.MulticolourTriAndSqu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC14B58F21200F7F003ECB01 /* Build configuration list for PBXProject "MulticolourTriAndSqu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14B5A821200F8D003ECB01 /* Debug */,
+				BC14B5A921200F8D003ECB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC14B5AA21200F8D003ECB01 /* Build configuration list for PBXNativeTarget "MulticolourTriAndSqu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14B5AB21200F8D003ECB01 /* Debug */,
+				BC14B5AC21200F8D003ECB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC14B58C21200F7F003ECB01 /* Project object */;
+}

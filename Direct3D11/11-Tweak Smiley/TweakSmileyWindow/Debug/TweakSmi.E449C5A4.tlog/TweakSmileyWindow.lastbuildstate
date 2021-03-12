@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|Win32|C:\Users\SharK\Documents\Visual Studio 2015\Projects\01-RealTimeRendering-2017\02-RTR\01-RTR_Course\01-Native\06-Direct3D\10 , 11 , 12 , 13\11-Tweak Smiley\TweakSmileyWindow\|

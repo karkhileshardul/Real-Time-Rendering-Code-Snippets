@@ -1,0 +1,23 @@
+
+FOR FILE Program1.c
+*Steps for creating .so file
+	1.	gcc -o Program.o -c -fPIC Program1.c 
+	
+	2.	gcc -o libprogram.so Program.o -shared 
+
+
+
+FOR FILE Tempplate.c
+*Steps for using .so file
+
+1.	gcc -S -o Tempplate.s Tempplate.c
+
+2.	as -o Tempplate.o Tempplate.s
+
+3.	ld -o OUTPUT -lc -dynamic-linker /lib64/ld-linux-x86-64.so.2 /home/shark/RTR/13-dlopen_program/libprogram.so -ldl Tempplate.o -e main
+
+4.	./OUTPUT
+
+
+
+(NOTE:- In step 3 after the "ld-linux-x86-64.so.2", the Absolute path of shared object is provided which vary.)

@@ -1,0 +1,6 @@
+#include"Header.h"
+
+IDBITMAP_MARBLE BITMAP "marble.bmp"
+
+
+

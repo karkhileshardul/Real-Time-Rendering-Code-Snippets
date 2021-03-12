@@ -1,0 +1,4 @@
+﻿  Template.cpp
+Template.obj : error LNK2019: unresolved external symbol "long __cdecl DirectX::CreateWICTextureFromFile(struct ID3D11Device *,struct ID3D11DeviceContext *,wchar_t const *,struct ID3D11Resource * *,struct ID3D11ShaderResourceView * *,unsigned __int64)" (?CreateWICTextureFromFile@DirectX@@YAJPEAUID3D11Device@@PEAUID3D11DeviceContext@@PEB_WPEAPEAUID3D11Resource@@PEAPEAUID3D11ShaderResourceView@@_K@Z) referenced in function "long __cdecl LoadD3DTexture(wchar_t const *,struct ID3D11ShaderResourceView * *)" (?LoadD3DTexture@@YAJPEB_WPEAPEAUID3D11ShaderResourceView@@@Z)
+DirectXTK.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\SharK\Documents\Visual Studio 2015\Projects\01-RealTimeRendering-2017\02-RTR\01-RTR_Course\01-Native\06-Direct3D\10 , 11 , 12 , 13\10-Smiley\SmileyWindow\x64\Debug\SmileyWindow.exe : fatal error LNK1120: 1 unresolved externals

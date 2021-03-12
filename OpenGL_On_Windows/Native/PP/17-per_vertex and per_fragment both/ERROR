@@ -1,0 +1,11 @@
+Template.cpp
+Microsoft (R) Incremental Linker Version 14.00.23026.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:Template.exe 
+Template.obj 
+Template.obj : error LNK2019: unresolved external symbol getSphereVertexData referenced in function "void __cdecl initialize(void)" (?initialize@@YAXXZ)
+Template.obj : error LNK2019: unresolved external symbol getNumberOfSphereVertices referenced in function "void __cdecl initialize(void)" (?initialize@@YAXXZ)
+Template.obj : error LNK2019: unresolved external symbol getNumberOfSphereElements referenced in function "void __cdecl initialize(void)" (?initialize@@YAXXZ)
+Sphere.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+Template.exe : fatal error LNK1120: 3 unresolved externals
